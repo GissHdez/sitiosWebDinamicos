@@ -28,3 +28,4 @@ if (edad >= 18){
 }else{
     console.log('Aun no eres mayor de edad');
 }
+
