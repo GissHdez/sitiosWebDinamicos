@@ -10,7 +10,7 @@ numeroUno = 10;
 numeroDos = 20;
 resultado = (numeroUno * numeroDos)/3;
 resultadoArreglado = resultado.toFixed(2);
-resultadoEnNumero = parseFloat(resultadoArreglado);//Convertir numeros en punto decimales
+resultadoEnNumero = parseFloat(resultadoArreglado);//Convertir stringss en punto decimales
 
 
 
