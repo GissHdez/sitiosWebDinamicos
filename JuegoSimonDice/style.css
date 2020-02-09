@@ -1,0 +1,100 @@
+body {
+    background: #dedede;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+}
+.btn-start {
+    width: 400px;
+    height: 100px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 200px);
+}
+.hide {
+    display: none;
+}
+.color {
+    width: 98%;
+    height: 98%;
+    margin: auto;
+}
+.rojo{
+    background: #E51625;
+}
+.rojo.light{
+    background: rgb(228, 101, 110);
+}
+
+.amarillo{
+    background: #FFFF43;
+}
+.amarillo.light{
+    background: rgb(252, 252, 169);
+}
+
+.naranja{
+    background: #FF8300;
+}
+.naranja.light{
+    background: rgb(252, 192, 128);
+}
+
+.verdeC{
+    background: #95D904;
+}
+.verdeC.light{
+    background: rgb(197, 230, 126);
+}
+
+.rosa{
+    background: #F20574;
+}
+.rosa.light{
+    background: rgb(247, 147, 194);
+}
+
+.verdeO{
+    background: #009652;
+}
+.verdeO.light{
+    background: #82dbb3;
+}
+
+.azulO{
+    background: #021373;
+}
+.azulO.light{
+    background: #969ecc;
+}      
+
+.azulC{
+    background: #1F93D2;
+}
+.azulC.light{
+    background: rgb(173, 197, 209);
+}
+
+.azul{
+  background: #2B5FD3;
+}
+.azul.light{
+  background: rgb(150, 172, 219);
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20%;
+}
+.game-board {
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    margin: auto;
+}
